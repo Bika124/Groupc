@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+html{
+
+    background: url(./work.jpg) no-repeat center top; 
+}
+
+body{
+
+    background-color: rgba(25, 24, 24, 0.585);    
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #b2d237;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: navy;
+}
+nav ul li a:hover{
+    color: #b2d237;
+    transition: .4s;
+}
+.btn{
+    border:  #b2d237;
+    color: black;
+    text-decoration:none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn :hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: black;
+    margin: 20px 0spx 20px;
+    font-size: 70px;
+}
+h3{
+    color:  #b2d237;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+h4{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color:  #b2d237;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+    top: 6px;
+    right: 6px;
+
+}
+.share{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.share p{
+   font-size: 17px;
+   color: #b2d237;
+   margin-right: 60px;
+}
+.share .social a{
+   display:inline-block;
+   color:blue;
+   margin-right: 15px;
+   transition: transform .3s;
+ }
+ .share .social a:hover{
+     transform: scale(1.6);
+    }
+
+.lets{
+       text-decoration: none;
+       border-radius: 15px;
+       color:  #b2d237;
+       background-color: black;
+       padding: 7px;
+       
+    }
